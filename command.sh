@@ -1,0 +1,1 @@
+ sudo iw dev wlan0 scan | grep -E 'SSID:|signal:' | while read line1; do read line2; echo "$line1 , $line2"; done |  sed  -e 's/signal: //g' -e 's/ dBm //g' -e s'/ SSID: //g' | awk 'BEGIN {FS=","} ; { print $2 "," $1 } '
