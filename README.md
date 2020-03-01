@@ -1,2 +1,2 @@
 # wifi2csv
-This series of commands wiil scan the Wifi network and create an output in CSV. 
+This serie of commands wiil scan the Wifi networks and create an output in CSV. 
